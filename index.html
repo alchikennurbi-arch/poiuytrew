@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container1 {
+        background-color: rgba(250, 250, 250);
+        width: 850px;
+        height: 1400px;
+        position: relative;
+      }
+      .ex {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+      }
+      .exp {
+        margin-left: 10000px;
+      }
+      .lore { color: black;
+      }
+      .chal {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 10px;
+        border-right: 1px solid black;
+      }
+      .chal border-right {
+        left: 50px;
+      }
+      .container2 {
+        width: 750px;
+        height: 100px;
+        background-color: rgb(241, 239, 239);
+        margin-left: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        position: relative;
+      }
+      .un {
+        margin-left: 30px;
+      }
+      .ai {
+        font-size: 13px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+      }
+      .pro {
+        font-size: 13px;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+      }
+      .fi {
+        font-size: 13px;
+        position: absolute;
+        top: 30px;
+        left: 220px;
+      }
+      .and {
+        font-size: 13px;
+        position: absolute;
+        top: 50px;
+        left: 220px;
+      }
+      button {
+        width: 130px;
+        background-color: red;
+        border-radius: 30px;
+        border: none;
+        position: absolute;
+        left: 600px;
+        top: 20px;
+      }
+      .up {
+        color: white;
+      }
+      .work {
+        color: gray;
+        font-size: 13px;
+        position: absolute;
+        left: 500px;
+      }
+      .team {
+        color: blue;
+        font-size: 13px;
+        position: absolute;
+        left: 600px;
+        text-decoration: dotted;
+      }
+      .in{position: absolute;
+    left: 50px;
+bottom:1100px}
+.se{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 150px;
+    top:10px
+
+}
+input{
+    padding: 10px;
+    width: 150px;
+}
+.p{width: 10px;
+height: 10px;
+position: absolute;
+left: 8px;
+top: 65px}
+
+.m{width: 10px;
+height: 10px;
+position: absolute;
+left: 8px;
+top: 45px}
+
+.chek{width: 10px;
+height: 10px;
+position: absolute;
+left: 200px;
+top: 65px}
+
+.checking{width: 10px;
+height: 10px;
+position: absolute;
+left: 200px;
+top: 45px}
+
+
+
+
+.you{
+    background-color:white ;
+     height: 200px;
+    width: 250px;
+    position: absolute;
+    top:560px;
+    left: 320px;
+    border-radius: 0px 0px 20px 20px;
+}
+.app{
+    margin-left: 30px;
+}
+.html{
+    color:aqua;
+    margin-left: 20px;
+}
+.css{
+    color:rgb(0, 51, 255);
+    margin-left: 80px;
+    margin-top: -35px;
+}
+.js{color:rgb(255, 0, 251);
+    margin-left: 120px;
+    margin-top: -35px;}
+
+
+    .api{color:rgb(0, 255, 72);
+    margin-left: 150px;
+    margin-top: -35px;}
+    .qwer{color: gray;
+        position: absolute;
+        left: 20px;
+        top:60px
+    }
+    .fil{background-color: white;
+    width: 100px;
+padding: 10px;
+position: absolute;
+left: 450px;
+top:-20px;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+border: 1px solid gray}
+.l{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 470px;
+    top:10px;
+}
+.new{
+    background-color: white;
+    width: 150px;
+    position: absolute;
+    left: 600px;
+    padding: 10px;
+    border: 1px solid gray;
+border-radius: 5px;
+top:-306px}
+
+.as{ width: 15px;
+height: 15px;
+position: absolute;
+top:-280px;
+left: 730px;}
+
+
+
+    
+    .fil{background-color: white;
+    width: 100px;
+padding: 10px;
+position: absolute;
+left: 420px;
+top:-20px;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+border: 1px solid rgb(200, 199, 199)}
+.l{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 440px;
+    top:10px;
+}
+/* .new{
+    background-color: white;
+    width: 150px;
+    position: absolute;
+    left: 600px;
+    padding: 10px;
+    border: 1px solid gray;
+border-radius: 5px;
+top:-306px} */
+
+
+.ml{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top:-200px;
+    left: 0px;
+   
+    border-radius: 10px;
+}
+
+.rec{
+  margin-left: 20px;
+}
+.premium{
+  background-color: blue;
+  border-radius: 30px;
+  color: white;
+  padding: 2px;
+  position: absolute;
+  left: 496px;
+  top:350px;
+}
+.mm{width: 100px;
+
+margin-left: 150px;
+position: absolute;
+top:607px;
+left: 310px;
+}
+.kk{width: 100px;
+
+margin-left: 150px;
+position: absolute;
+top:600px;
+left: 580px;
+}
+
+ .appl{
+  position: absolute;
+  width: 200px;
+  height: 170px;
+  margin-left: 20px;
+  margin-top: -180px;
+
+  
+ }
+ .gray{
+ 
+  background-color: rgb(223, 222, 222);
+  margin-top: 110px;
+  margin-left: 60px;
+  border-radius: 20px 20px 0px 0px;
+  width: 240px;
+  height: 200px;
+ }
+.weather{
+  background-color: white;
+  width: 240px;
+  height: 200px;
+  margin-left: 60px;
+  margin-top: -15px;
+  border-radius: 0px 0px 20px 20px;
+
+}
+.e{
+  margin-left: 30px;
+  position: absolute;
+}
+
+.htmll{
+    color:aqua;
+     margin-top: -149px;
+    margin-left: 100px;
+}
+.csss{
+    color:rgb(0, 51, 255);
+    margin-left: 160px;
+    margin-top: -35px;
+}
+.jss{color:rgb(255, 0, 251);
+    margin-left: 200px;
+    margin-top: -35px;}
+
+
+    .apii{color:rgb(0, 255, 72);
+    margin-left: 220px;
+    margin-top: -35px;}
+
+    .klk{width: 100px;
+
+position: absolute;
+top:637px;
+left: 100px;
+}
+.qweer{color: gray;
+        position: absolute;
+        left: 90px;
+        top:650px}
+.red{position: absolute;
+  z-index: 10px;
+  background-color: red;
+  color: white;
+  width: 30px;
+  border-radius: 30px;
+margin-top: -270px;
+  margin-left: 200px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.free{position: absolute;
+  z-index: 10px;
+  background-color: orange;
+  color: white;
+  width: 30px;
+  border-radius: 30px;
+margin-top: -270px;
+  margin-left: 260px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ .grey{
+ 
+  background-color: rgb(223, 222, 222);
+  margin-top: -280px;
+  margin-left: 590px;
+  border-radius: 20px 20px 0px 0px;
+  width: 240px;
+  height: 200px;
+ }
+
+ .four{
+  position: absolute;
+  width: 200px;
+  height: 170px;
+  margin-left: 20px;
+  margin-top: -180px;}
+
+.she{
+  background-color: white;
+  width: 240px;
+  height: 200px;
+  margin-left: 590px;
+  margin-top: -20px;
+  border-radius: 0px 0px 20px 20px;
+
+}
+.mood{
+  margin-left: 60px;
+  position: absolute;
+}
+
+.htmml{
+    color:aqua;
+     margin-top: 55px;
+    margin-left: 20px;
+    position: absolute;
+    top:550px;
+    z-index: 4;
+}
+.ccss{
+    color:rgb(0, 51, 255);
+    margin-left:80px;
+    margin-top: 55px;
+    position: absolute;
+    top:550px;
+    z-index: 4;
+    
+    
+
+}
+.jjs{color:rgb(255, 0, 251);
+    margin-left: 120px;
+    margin-top: 55px;
+  position: absolute;
+    top:550px;
+    z-index: 4;}
+
+
+    .appi{color:rgb(0, 255, 72);
+    margin-left: 220px;
+    margin-top: -35px;}
+
+   
+.qwerr{color: gray;
+        position: absolute;
+        left: 630px;
+        top:620px}
+        .i{
+          width: 270px;
+          height: 380px;
+          margin-top: 40px;
+          margin-left: 40px;
+        }
+        .t{
+          width: 270px;
+          height: 380px;
+          margin-top: 40px;
+          margin-left: 0px;
+        }
+ .q{
+          width: 250px;
+          height: 370px;
+          margin-top: 40px;
+          margin-left: 0px;
+        }
+.tex{
+  position: absolute;
+  left: 600px;
+  top:260px;
+  border: 1px solid rgb(215, 213, 213);
+}
+.old{
+  width: 20px;
+  height: 20px;
+  color: aqua;
+ 
+}
+.of{
+  font-size: 10px;
+  color: gray;
+}
+.of{
+position: absolute;
+top:310px;
+left: 50px
+}
+.sure{
+ font-size: 10px;
+ position: absolute;
+ left: 570px;
+ top: 300px
+}
+    </style>
+  </head>
+  <body>
+
+    
+    
+    <div class="container1">
+      <div class="exp">
+        <p class="lore">EXPLORE</p>
+        <img class="ex" src="down-arrow.png" />
+      </div>
+      <p class="chal">CHALLENGES</p>
+
+      <div class="container2">
+        <p class="un">Unlock full access</p>
+        <p class="ai">AI-powered solution reviews</p>
+        <img class="p" src="check.png"/>
+        <p class="pro">Professsional Figma design files</p>
+        <img class="m" src="check.png"/>
+        <p class="fi">50+ portfolio-readypremium projects</p>
+         <img class="checking" src="check.png"/>
+        <p class="and">And more</p>
+         <img class="chek" src="check.png"/>
+        <button><p class="up">UPGRADE NOW</p></button>
+        <p class="work">Work in a team?</p>
+        <p class="team"><u>Upgrade your team to Pro</u></p>
+      </div>
+      <div class="in">
+      <input type="text" id="Search challenges" placeholder="Search challendes" > </input>
+      <img class="se" src="search (1).png" alt=""/>
+      <p class="fil">Filter</p>
+      <img class="l"src="filter (1).png">
+      </div>
+    <div class="tex"><input type="text" id="Newest to oldest" placeholder="Newest to oldest"></input>
+    <img class="old" src="down-arrow.png/"></div>
+
+<p class="of">Showing 119 of 119 challenges</p>
+<p class="sure">Not sure to start? <a href="Try our learning.paths">Try our learning.paths</a> </p> 
+
+
+<p class="gray">.</p>
+<DIV CLASS="weather">
+ <P class= "e"> Weather app </P>
+  <img class="appl" src="image-6.png"> </DIV>
+    <p class="htmll">HTML</P>
+    <p class="csss">CSS</p>
+    <p class="jss">JS</p>
+     <p class="apii">API</p>
+    <img class="klk" src="nn.png"/>
+    <p class="qweer"> gfdhsjaklfuhygd<br/>svabnmkrtyuibvfvgbhjklk <br/>jhgvbnmijhgfcvbnmlpoiuy</p>
+<p class="red">New</p>
+<p class="free">free</p>
+
+
+
+
+<DIV CLASS="you">
+ <P class= "rec"> Recipe finder website </P>
+        <p class="html">HTML</P>
+    <p class="css">CSS</p>
+            <p class="js">JS</p>
+            <p class="qwer"> xcvbyr jdrpnb fgudtmyeqzcju gfdhsjaklfuhygd<br/>svabnmkrtyuibvfvgbhjklk <br/>jhgvbnmijhgfcvbnmlpoiuy</p>
+            <img class="ml" src="image-5.png">
+         
+            </DIV>
+               <img class="mm" src="nn.png"/>
+               <p class="premium">premium</p>
+
+
+
+    <p class="grey">.</p>       
+<DIV CLASS="she">
+  <img class="four" src="image-4.png"/>
+ <P class="mood">Mood tracking app</P>
+        <p class="htmml">HTML</P>
+    <p class="ccss">CSS</p>
+            <p class="jjs">JS</p>
+            <p class="qwerr">gfdhsjaklfuhygd<br/>svabnmkrtyuibvfvgbhjklk <br/>jhgvbnmijhgfcvbb hjguomgzwjunppim <br/>nmlpoiuy bhuikn</p>
+            </DIV>
+             <img class="kk" src="mm.png"/>
+
+<img class="i" src="i.png"/>
+
+<img class="t" src="t.png"/>
+<img class="q" src="q.png"/>
+
+    </div>
+  </body>
+</html>
